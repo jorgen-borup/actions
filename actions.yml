@@ -1,0 +1,15 @@
+name: 'test'
+description: 'Test action'
+
+inputs:
+   test:
+     description: 'Input test'
+     required: false
+     default: 10
+outputs:
+  time:
+    description: 'Output value'
+runs:
+  using: 'node16'
+  main: 'src/app.js'
+  
