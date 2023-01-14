@@ -11,5 +11,5 @@ outputs:
     description: 'Output value'
 runs:
   using: 'node16'
-  main: 'src/app.js'
+  main: 'app.js'
   
