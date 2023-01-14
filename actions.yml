@@ -6,9 +6,9 @@ inputs:
      description: 'Input test'
      required: false
      default: 10
-outputs:
-  time:
-    description: 'Output value'
+# outputs:
+#  time:
+#    description: 'Output value'
 runs:
   using: 'node12'
   main: 'app.js'
